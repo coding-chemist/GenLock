@@ -1,0 +1,6 @@
+flask==3.1.0
+flask-limiter==3.8.0
+streamlit==1.40.2
+openpyxl==3.1.5
+pytest==8.3.3
+requests==2.32.3
