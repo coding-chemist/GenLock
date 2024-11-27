@@ -1,0 +1,192 @@
+2024-11-27 11:14:08,133 - INFO - Application Initialized
+2024-11-27 11:14:08,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-27 11:14:08,576 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-27 11:14:08,577 - INFO -  * Restarting with stat
+2024-11-27 11:14:09,048 - INFO - Application Initialized
+2024-11-27 11:14:09,383 - WARNING -  * Debugger is active!
+2024-11-27 11:14:09,401 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:14:21,979 - INFO - Password generated: `e9u0H)WaGs', Security: Very Strong
+2024-11-27 11:14:21,980 - INFO - 127.0.0.1 - - [27/Nov/2024 11:14:21] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:21:08,225 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/app/password_utils.py', reloading
+2024-11-27 11:21:08,327 - INFO -  * Restarting with stat
+2024-11-27 11:21:08,982 - INFO - Application Initialized
+2024-11-27 11:21:09,457 - WARNING -  * Debugger is active!
+2024-11-27 11:21:09,472 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:22:16,025 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/app/routes.py', reloading
+2024-11-27 11:22:16,124 - INFO -  * Restarting with stat
+2024-11-27 11:22:16,768 - INFO - Application Initialized
+2024-11-27 11:22:17,216 - WARNING -  * Debugger is active!
+2024-11-27 11:22:17,232 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:22:25,776 - ERROR - Error generating password: Password length should be at least 12 characters for security.
+2024-11-27 11:22:25,777 - INFO - 127.0.0.1 - - [27/Nov/2024 11:22:25] "[31m[1mPOST /generate-password HTTP/1.1[0m" 400 -
+2024-11-27 11:22:31,325 - INFO - Password generated: 1J2=(IKEyp:|V, Security: Very Strong
+2024-11-27 11:22:31,325 - INFO - 127.0.0.1 - - [27/Nov/2024 11:22:31] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:22:44,529 - INFO - Checked password: Abs123777, Security: Very Strong
+2024-11-27 11:22:44,529 - INFO - 127.0.0.1 - - [27/Nov/2024 11:22:44] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:25:22,841 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/app/password_utils.py', reloading
+2024-11-27 11:25:22,913 - INFO -  * Restarting with stat
+2024-11-27 11:25:23,461 - INFO - Application Initialized
+2024-11-27 11:25:23,898 - WARNING -  * Debugger is active!
+2024-11-27 11:25:23,913 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:29:11,976 - INFO - Application Initialized
+2024-11-27 11:29:12,411 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-27 11:29:12,412 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-27 11:29:12,413 - INFO -  * Restarting with stat
+2024-11-27 11:29:12,871 - INFO - Application Initialized
+2024-11-27 11:29:13,228 - WARNING -  * Debugger is active!
+2024-11-27 11:29:13,242 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:29:22,868 - INFO - Password generated: +4ht-b$N(AJ., Security: Very Strong
+2024-11-27 11:29:22,869 - INFO - 127.0.0.1 - - [27/Nov/2024 11:29:22] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:29:35,297 - INFO - Checked password: ghjkkij7777777, Security: Very Weak
+2024-11-27 11:29:35,297 - INFO - 127.0.0.1 - - [27/Nov/2024 11:29:35] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:29:47,285 - INFO - Checked password: ghjkkij789, Security: Very Weak
+2024-11-27 11:29:47,285 - INFO - 127.0.0.1 - - [27/Nov/2024 11:29:47] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:29:49,344 - INFO - Checked password: ghjkkij789, Security: Very Weak
+2024-11-27 11:29:49,345 - INFO - 127.0.0.1 - - [27/Nov/2024 11:29:49] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:29:50,924 - INFO - Checked password: ghjkkij789, Security: Very Weak
+2024-11-27 11:29:50,924 - INFO - 127.0.0.1 - - [27/Nov/2024 11:29:50] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:29:56,499 - INFO - Checked password: 123, Security: Weak
+2024-11-27 11:29:56,499 - INFO - 127.0.0.1 - - [27/Nov/2024 11:29:56] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:30:57,119 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/app/password_utils.py', reloading
+2024-11-27 11:30:57,214 - INFO -  * Restarting with stat
+2024-11-27 11:30:57,744 - INFO - Application Initialized
+2024-11-27 11:30:58,165 - WARNING -  * Debugger is active!
+2024-11-27 11:30:58,182 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:31:04,859 - INFO - Checked password: 123, Security: Very Weak
+2024-11-27 11:31:04,860 - INFO - 127.0.0.1 - - [27/Nov/2024 11:31:04] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:31:10,954 - INFO - Checked password: 123!@#, Security: Very Weak
+2024-11-27 11:31:10,954 - INFO - 127.0.0.1 - - [27/Nov/2024 11:31:10] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:31:22,426 - INFO - Checked password: 1!2@3#, Security: Very Weak
+2024-11-27 11:31:22,427 - INFO - 127.0.0.1 - - [27/Nov/2024 11:31:22] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:31:34,339 - INFO - Checked password: HelloTesting123, Security: Very Weak
+2024-11-27 11:31:34,340 - INFO - 127.0.0.1 - - [27/Nov/2024 11:31:34] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:31:49,137 - INFO - Checked password: aWk()67amQ,, Security: Very Strong
+2024-11-27 11:31:49,137 - INFO - 127.0.0.1 - - [27/Nov/2024 11:31:49] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:32:54,226 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:32:54,315 - INFO -  * Restarting with stat
+2024-11-27 11:32:54,801 - INFO - Application Initialized
+2024-11-27 11:32:55,158 - WARNING -  * Debugger is active!
+2024-11-27 11:32:55,173 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:34:00,738 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:34:00,829 - INFO -  * Restarting with stat
+2024-11-27 11:34:01,308 - INFO - Application Initialized
+2024-11-27 11:34:01,688 - WARNING -  * Debugger is active!
+2024-11-27 11:34:01,704 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:34:36,017 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:34:36,105 - INFO -  * Restarting with stat
+2024-11-27 11:34:36,569 - INFO - Application Initialized
+2024-11-27 11:34:36,921 - WARNING -  * Debugger is active!
+2024-11-27 11:34:36,934 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:34:45,012 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:34:45,102 - INFO -  * Restarting with stat
+2024-11-27 11:34:45,561 - INFO - Application Initialized
+2024-11-27 11:34:45,901 - WARNING -  * Debugger is active!
+2024-11-27 11:34:45,915 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:35:34,347 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:35:34,421 - INFO -  * Restarting with stat
+2024-11-27 11:35:34,871 - INFO - Application Initialized
+2024-11-27 11:35:35,235 - WARNING -  * Debugger is active!
+2024-11-27 11:35:35,252 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:36:07,540 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:36:07,623 - INFO -  * Restarting with stat
+2024-11-27 11:36:08,084 - INFO - Application Initialized
+2024-11-27 11:36:08,423 - WARNING -  * Debugger is active!
+2024-11-27 11:36:08,437 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:36:15,245 - INFO - Password generated: F&o5#4m2I0%p, Security: Very Strong
+2024-11-27 11:36:15,246 - INFO - 127.0.0.1 - - [27/Nov/2024 11:36:15] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:38:14,651 - INFO - 127.0.0.1 - - [27/Nov/2024 11:38:14] "GET /passwords HTTP/1.1" 200 -
+2024-11-27 11:38:19,712 - INFO - 127.0.0.1 - - [27/Nov/2024 11:38:19] "GET /passwords HTTP/1.1" 200 -
+2024-11-27 11:38:21,231 - INFO - 127.0.0.1 - - [27/Nov/2024 11:38:21] "GET /passwords HTTP/1.1" 200 -
+2024-11-27 11:41:23,288 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:41:23,374 - INFO -  * Restarting with stat
+2024-11-27 11:41:24,120 - INFO - Application Initialized
+2024-11-27 11:41:24,768 - WARNING -  * Debugger is active!
+2024-11-27 11:41:24,785 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:42:04,164 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:42:04,249 - INFO -  * Restarting with stat
+2024-11-27 11:42:04,844 - INFO - Application Initialized
+2024-11-27 11:42:05,339 - WARNING -  * Debugger is active!
+2024-11-27 11:42:05,359 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:42:10,960 - INFO - Password generated: 8n^`_Gg[BkxACY, Security: Weak
+2024-11-27 11:42:10,960 - INFO - 127.0.0.1 - - [27/Nov/2024 11:42:10] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:43:27,076 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:43:27,150 - INFO -  * Restarting with stat
+2024-11-27 11:43:27,759 - INFO - Application Initialized
+2024-11-27 11:43:28,222 - WARNING -  * Debugger is active!
+2024-11-27 11:43:28,237 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:43:31,783 - INFO - Password generated: )-uG9\L;4ldjRS, Security: Weak
+2024-11-27 11:43:31,784 - INFO - 127.0.0.1 - - [27/Nov/2024 11:43:31] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:45:12,203 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:45:12,295 - INFO -  * Restarting with stat
+2024-11-27 11:45:12,902 - INFO - Application Initialized
+2024-11-27 11:45:13,331 - WARNING -  * Debugger is active!
+2024-11-27 11:45:13,349 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:45:16,170 - INFO - Password generated: /?>:~97ZxR\9hb, Security: Very Strong
+2024-11-27 11:45:16,171 - INFO - 127.0.0.1 - - [27/Nov/2024 11:45:16] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:46:09,871 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:46:09,948 - INFO -  * Restarting with stat
+2024-11-27 11:46:10,556 - INFO - Application Initialized
+2024-11-27 11:46:11,036 - WARNING -  * Debugger is active!
+2024-11-27 11:46:11,052 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:46:16,379 - INFO - Password generated: "MYu-D=wOtQ9wS, Security: Very Strong
+2024-11-27 11:46:16,379 - INFO - 127.0.0.1 - - [27/Nov/2024 11:46:16] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:47:22,669 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:47:22,763 - INFO -  * Restarting with stat
+2024-11-27 11:47:23,198 - INFO - Application Initialized
+2024-11-27 11:47:23,540 - WARNING -  * Debugger is active!
+2024-11-27 11:47:23,553 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:47:34,478 - INFO - Password generated: 5%x!#udN.?1l]S, Security: Very Strong
+2024-11-27 11:47:34,479 - INFO - 127.0.0.1 - - [27/Nov/2024 11:47:34] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:48:10,981 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:48:11,094 - INFO -  * Restarting with stat
+2024-11-27 11:48:11,527 - INFO - Application Initialized
+2024-11-27 11:48:11,869 - WARNING -  * Debugger is active!
+2024-11-27 11:48:11,882 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:48:28,028 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:48:28,117 - INFO -  * Restarting with stat
+2024-11-27 11:48:28,589 - INFO - Application Initialized
+2024-11-27 11:48:28,928 - WARNING -  * Debugger is active!
+2024-11-27 11:48:28,941 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:48:30,504 - INFO - Password generated: 4e7vzz;BJ&]\ii, Security: Weak
+2024-11-27 11:48:30,505 - INFO - 127.0.0.1 - - [27/Nov/2024 11:48:30] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:53:25,481 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:53:25,561 - INFO -  * Restarting with stat
+2024-11-27 11:53:26,215 - INFO - Application Initialized
+2024-11-27 11:53:26,698 - WARNING -  * Debugger is active!
+2024-11-27 11:53:26,715 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:53:30,713 - INFO - Password generated: X0uxG=v<CT'1G+, Security: Very Strong
+2024-11-27 11:53:30,713 - INFO - 127.0.0.1 - - [27/Nov/2024 11:53:30] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:54:54,491 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:54:54,572 - INFO -  * Restarting with stat
+2024-11-27 11:54:55,040 - INFO - Application Initialized
+2024-11-27 11:54:55,401 - WARNING -  * Debugger is active!
+2024-11-27 11:54:55,417 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:57:27,805 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:57:27,886 - INFO -  * Restarting with stat
+2024-11-27 11:57:28,588 - INFO - Application Initialized
+2024-11-27 11:57:29,080 - WARNING -  * Debugger is active!
+2024-11-27 11:57:29,098 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:57:32,460 - INFO - Password generated: DLo~05jC#wet7i, Security: Weak
+2024-11-27 11:57:32,460 - INFO - 127.0.0.1 - - [27/Nov/2024 11:57:32] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:57:54,332 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:57:54,404 - INFO -  * Restarting with stat
+2024-11-27 11:57:54,988 - INFO - Application Initialized
+2024-11-27 11:57:55,439 - WARNING -  * Debugger is active!
+2024-11-27 11:57:55,453 - INFO -  * Debugger PIN: 663-623-235
+2024-11-27 11:57:56,939 - INFO - Password generated: F|iQ8lF>uk8`&L, Security: Very Strong
+2024-11-27 11:57:56,940 - INFO - 127.0.0.1 - - [27/Nov/2024 11:57:56] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:58:04,981 - ERROR - Error generating password: Password length should be at least 12 characters for security.
+2024-11-27 11:58:04,981 - INFO - 127.0.0.1 - - [27/Nov/2024 11:58:04] "[31m[1mPOST /generate-password HTTP/1.1[0m" 400 -
+2024-11-27 11:58:09,170 - INFO - Password generated: 3U0e4woRS5y\, Security: Very Strong
+2024-11-27 11:58:09,170 - INFO - 127.0.0.1 - - [27/Nov/2024 11:58:09] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:58:14,923 - INFO - Checked password: 4555, Security: Very Weak
+2024-11-27 11:58:14,923 - INFO - 127.0.0.1 - - [27/Nov/2024 11:58:14] "POST /check-security HTTP/1.1" 200 -
+2024-11-27 11:58:17,548 - INFO - Password generated: c?Tp[#j.P1R%, Security: Very Strong
+2024-11-27 11:58:17,548 - INFO - 127.0.0.1 - - [27/Nov/2024 11:58:17] "POST /generate-password HTTP/1.1" 200 -
+2024-11-27 11:59:03,063 - INFO -  * Detected change in '/Users/htcuser/Documents/Learning/coding-chemist/GenLock/frontend/app.py', reloading
+2024-11-27 11:59:03,137 - INFO -  * Restarting with stat
+2024-11-27 11:59:03,732 - INFO - Application Initialized
+2024-11-27 11:59:04,171 - WARNING -  * Debugger is active!
+2024-11-27 11:59:04,187 - INFO -  * Debugger PIN: 663-623-235
