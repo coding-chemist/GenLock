@@ -5,3 +5,4 @@ __pycache__
 *.rdb
 .xlsx
 *.xlsx
+*tests/
