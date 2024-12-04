@@ -3,8 +3,11 @@ __pycache__
 **__pycache__
 .rdb
 *.rdb
+logs/
 .xlsx
 *.xlsx
 *tests/
-*logs/
+**logs/
+.log
+*.log
 **.log
