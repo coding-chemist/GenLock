@@ -1,6 +1,8 @@
 # GenLock: Password Management System
 GenLock is a robust, user-friendly password management system designed to help users generate secure passwords, evaluate their strength, and manage them efficiently. It includes a modern Streamlit-based frontend for an intuitive UI and a Flask-powered backend for handling API operations.
 
+![GenLock](image.png)
+
 ## Table of Contents
 - Features
 - Tech Stack
