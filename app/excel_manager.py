@@ -1,7 +1,9 @@
-import openpyxl
 from datetime import datetime
 
-EXCEL_FILE = 'passwords.xlsx'
+import openpyxl
+
+EXCEL_FILE = "passwords.xlsx"
+
 
 def initialize_excel():
     try:
@@ -12,6 +14,7 @@ def initialize_excel():
         sheet.title = "Passwords"
         sheet.append(["ID", "Password", "Security Level", "Created At"])
         wb.save(EXCEL_FILE)
+
 
 def read_passwords():
     wb = openpyxl.load_workbook(EXCEL_FILE)
@@ -26,13 +29,15 @@ def read_passwords():
         for row in sheet.iter_rows(min_row=2)
     ]
 
+
 def add_password(password, security_level):
     wb = openpyxl.load_workbook(EXCEL_FILE)
     sheet = wb.active
     new_id = sheet.max_row
-    created_at = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     sheet.append([new_id, password, security_level, created_at])
     wb.save(EXCEL_FILE)
+
 
 def delete_password(password_id):
     wb = openpyxl.load_workbook(EXCEL_FILE)
@@ -43,5 +48,6 @@ def delete_password(password_id):
             wb.save(EXCEL_FILE)
             return True
     return False
+
 
 initialize_excel()
