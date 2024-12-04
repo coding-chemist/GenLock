@@ -1,6 +1,7 @@
 import random
-import string
 import re
+import string
+
 
 def generate_password(length=16, include_special=True, enforce_rules=True):
     """
@@ -9,7 +10,9 @@ def generate_password(length=16, include_special=True, enforce_rules=True):
     - Avoids continuous sequences of 3-4 alphabetic characters unless mixed case.
     """
     if length < 12:  # Minimum recommended length
-        raise ValueError("Password length should be at least 12 characters for security.")
+        raise ValueError(
+            "Password length should be at least 12 characters for security."
+        )
 
     # Define character pools
     lowercase = string.ascii_lowercase
@@ -35,7 +38,7 @@ def generate_password(length=16, include_special=True, enforce_rules=True):
             password.append(char)
 
     random.shuffle(password)  # Shuffle for randomness
-    return ''.join(password)
+    return "".join(password)
 
 
 def is_valid_char_to_add(password, char):
@@ -70,11 +73,11 @@ def check_password_security(password):
     has_special = any(c in string.punctuation for c in password)
 
     # Detect consecutive same-case alphabets
-    consecutive_alpha_pattern = r'([a-z]{3,}|[A-Z]{3,})'
+    consecutive_alpha_pattern = r"([a-z]{3,}|[A-Z]{3,})"
     has_consecutive_alpha = bool(re.search(consecutive_alpha_pattern, password))
 
     # Detect consecutive same digits
-    consecutive_digit_pattern = r'(\d)\1{2,}'  # e.g., "111"
+    consecutive_digit_pattern = r"(\d)\1{2,}"  # e.g., "111"
     has_consecutive_digits = bool(re.search(consecutive_digit_pattern, password))
 
     # Check if the password is too simple
